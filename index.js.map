@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sources":["../src/main.js"],"sourcesContent":["import getImg from './js/pixabay-api';\n\nconst form = document.querySelector('.form');\n"],"names":[],"mappings":"ssBAEa,SAAS,cAAc,OAAO"}
+{"version":3,"file":"index.js","sources":["../src/main.js"],"sourcesContent":["import getImg from './js/pixabay-api';\nimport createGallery from './js/render-functions';\n\nimport iziToast from 'izitoast';\nimport 'izitoast/dist/css/iziToast.min.css';\n\nconst form = document.querySelector('.form');\n"],"names":[],"mappings":"0uBAMa,SAAS,cAAc,OAAO"}
