@@ -1,10 +1,10 @@
 import axios from 'axios';
 
-export function getImg(item) {
+export function getImagesByQuery(query) {
   axios('https://pixabay.com/api/', {
     params: {
       key: '52821628-dae3b3c31b624417cff84e51c',
-      q: item,
+      q: query,
       image_type: 'photo',
       orientation: 'horizontal',
       safesearch: true,
@@ -13,7 +13,7 @@ export function getImg(item) {
     .then(response => {
       return response.data.hits;
     })
-    .catch(() => {
+    .catch(error => {
       return [];
     });
 }
