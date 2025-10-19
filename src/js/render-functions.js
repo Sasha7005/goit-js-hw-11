@@ -58,9 +58,9 @@ export function clearGallery() {
   gallery.innerHTML = '';
 }
 export function showLoader() {
-  loader.classList.remove('loader');
+  loader.classList.remove('hidden');
 }
 
 export function hideLoader() {
-  loader.classList.add('loader');
+  loader.classList.add('hidden');
 }

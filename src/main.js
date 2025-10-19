@@ -10,6 +10,7 @@ import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
 const form = document.querySelector('.form');
+
 const gallery = document.querySelector('.gallery');
 
 form.addEventListener('submit', handleSubmit);
