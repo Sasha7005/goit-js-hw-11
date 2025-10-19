@@ -50,13 +50,17 @@
   color: #808080;
 }
 
-.loader {
+.span-loader {
+  display: none;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #2e2f42;
   width: 256px;
   margin: 0 auto;
+}
+.span-loader.active {
+  display: block;
 }
 .gallery {
   display: flex;
@@ -97,7 +101,4 @@
   justify-content: space-around;
   letter-spacing: 0.04em;
   text-align: center;
-}
-.hidden {
-  display: none;
 }
